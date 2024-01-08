@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+
+  <head>
+    <title>Game Result</title>
+    <link rel="stylesheet" type="text/css" href="./result.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./styles.css"> -->
+  </head>
+  <body>
+
+    <div class="elements">
+      <div>
+        <img src="./../pics/horns.png" alt="" />
+      </div>
+      <h1 class="res">GODDAMN!</h1>
+    <br/> 
+      <h2 class="res">YOUR RESULT IS: </h2>
+    </div>
+  
+
+    
+  <hr/>
+    <h3 class="point">Monsters killed: <div id="totalLevel"></div></h3>
+  <hr/>
+    <h3 class="point"> Your score: <div id="resultNum"></div></h3>
+  <hr/>
+    
+
+    <div class="elements">
+      <div>
+        <h2 class="res">CONGRATULATIONS!</h2>
+      </div>
+    <br/>
+      <div class="btnEnd">
+        <button class="buttonEnd" onclick="tryagain()"> LET'S START AGAIN </button>    
+      </div>    
+    </div>
+
+    <script src="./result.js"></script>
+    <script src="./../round1/round1.js"></script>
+  </body>
+</html>
